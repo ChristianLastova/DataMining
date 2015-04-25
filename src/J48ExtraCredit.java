@@ -45,7 +45,7 @@ public class J48ExtraCredit {
 
 		 
 		 BufferedReader reader = new BufferedReader(
-		                              new FileReader("wine.data"));
+		                              new FileReader("iris.arff"));
 		 Instances data = new Instances(reader);
 		 reader.close();
 		 // setting class attribute
